@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Angeliki Papageorgiou</title>
+    <link rel="stylesheet" href="./css/contact.css"/>
+</head>
+<body>
+    <header>
+        <h3>Contact</h3>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+        <script>
+            document.querySelector('form').addEventListener('submit', function(e) {
+              e.preventDefault();
+              alert('Thank you for your message! :)');
+            });
+          </script>
+
+<a href="mailto:your-email@example.com" class="btn"></a>
+<a href="https://www.linkedin.com/in/yourprofile" class="btn">LinkedIn</a>
+          
+    </main>
+    <footer>
+        <p>©Copyright 2024 by Angeliki Papageorgiou. All rights reversed.</p>
+    </footer>
+</body>
+</html>
