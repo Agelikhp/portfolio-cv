@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Angeliki Papageorgiou</title>
+    <link rel="stylesheet" href="./css/contact.css"/>
+</head>
+<nav>
+    <ul>
+        <li><a href="bio.html" target="_blank" rel="noopener noreferrer">Bio</a></li>
+        <li><a href="projects.html" target="_blank" rel="noopener noreferrer">Projects</a></li>
+        <li><a href="games.html" target="_blank" rel="noopener noreferrer">Games</a></li>
+        <li><a href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a></li>
+    </ul>
+</nav>
+<body>
+    <header>
+        <h3>Contact</h3>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+        <script>
+            document.querySelector('form').addEventListener('submit', function(e) {
+              e.preventDefault();
+              alert('Thank you for your message! :)');
+            });
+          </script>
+
+<a href="mailto:agelikhpap@gmail.com" class="btn"></a>
+<a href="https://www.linkedin.com/in/angelikh-papageorgiou/" class="btn">LinkedIn</a>
+<a href="https://angelikipapageorgiou.tumblr.com/" class="btn">Tumblr</a>
+<a href="https://github.com/Agelikhp" class="btn">GitHub</a>
+
+          
+    </main>
+    <footer>
+        <p>©Copyright 2024 by Angeliki Papageorgiou. All rights reversed.</p>
+    </footer>
+</body>
+</html>

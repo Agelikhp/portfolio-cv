@@ -1,0 +1,35 @@
+#games {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+#games h2 {
+    text-align: center;
+}
+
+#games ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#games li {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#games li h3 {
+    margin: 0;
+}
+
+#games li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+#games li a:hover {
+    text-decoration: underline;
+}
