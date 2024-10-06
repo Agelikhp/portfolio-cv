@@ -1,0 +1,109 @@
+body {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: lightseagreen;
+}
+
+@media all {
+    body {
+        background-color: white;
+    }
+}
+
+nav ul {
+    list-style-type: none; /* Removes default list styling */
+    margin: 0; /* Removes default margin */
+    padding: 5; /* Removes default padding */
+    display: flex; /* Flexbox to make the list horizontal */
+    justify-content: center; /* Centers the list items horizontally */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav ul li {
+    position: relative;
+    margin: 0 15px; /* Adds horizontal space between menu items */
+}
+
+nav ul li .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+nav ul li .submenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .submenu a:hover {
+    background-color: #ddd;
+}
+
+nav ul li a {
+    text-decoration: none; /* Removes underline from links */
+    color: #000; /* Changes link color */
+    font-size: 16px; /* Adjust font size */
+}
+
+nav ul li a:hover {
+    color: whitesmoke; /* Changes color on hover */
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Stack h1 and h2 vertically */
+    align-items: center; /* Center h1 and h2 horizontally */
+}
+
+h2, h3 {
+    margin: 1%; /* Remove default margins */
+}
+
+p {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+   width: 20%;
+   height: auto; /* Maintain aspect ratio */
+}
+
+article {
+   padding: 20px;
+   text-align: center; /* Center text inside the article */
+}
+
+.image-container {
+   display: flex; /* Use flexbox to align images horizontally */
+   justify-content: center; /* Center images horizontally */
+   gap: 10px; /* Add space between images */
+   margin-top: 20px; /* Add top margin for spacing */
+}
+
+.image-container img {
+   max-width: 100%; /* Ensure images don’t exceed their container’s width */
+   height: auto; /* Maintain aspect ratio */
+   max-height: 300px; /* Adjust the height to keep images uniform */
+}
+
+@media (max-width: 600px) {
+   img {
+       width: 100%; /* Make images full width on small screens */
+   }
+}
+
+footer {
+   text-align: center; /* Center text */
+   padding: 10px; /* Padding around the text */
+}
