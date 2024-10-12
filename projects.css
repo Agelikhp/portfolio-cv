@@ -1,0 +1,32 @@
+body {
+    font-family: "Constantia", "Georgia", serif; /* Ensure consistent font */
+   
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+.project-list {
+    list-style-type: none; /* Removing default list styling */
+    padding: 0; /* Remove default padding */
+}
+
+.project-list li {
+    margin-bottom: 20px; /* Space between projects */
+}
+
+.project-list a {
+    text-decoration: none; /* Removing underline from links */
+    color: #333; /* Dark color for links */
+}
+
+.project-list a:hover {
+    color: lightseagreen; /* Changing link color on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: "Constantia", "Georgia", serif; /* Ensure consistent font */
+    background-color: #f8f8f8; /* Light background color for contrast */
+    margin: 0; /* Remove default margin */
+}
+
+header {
+    text-align: center;
+    padding: 40px; /* Space around the header */
+}
+
+main {
+    max-width: 800px; /* Limit width of the main content */
+    margin: 0 auto; /* Center the main content */
+    padding: 20px; /* Padding inside the main content */
+}
+
+.game-list {
+    margin-top: 20px; /* Space above the game list */
+}
+
+.game {
+    margin-bottom: 30px; /* Space between each game entry */
+    padding: 15px; /* Padding inside each game entry */
+    background-color: #fff; /* White background for game entries */
+    border-radius: 5px; /* Rounded corners for game entries */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.game h2 {
+    margin-bottom: 10px; /* Space below game title */
+}
+
+.game a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Dark color for links */
+}
+
+.game a:hover {
+    color
